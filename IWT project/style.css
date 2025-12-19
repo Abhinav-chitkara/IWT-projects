@@ -1,0 +1,96 @@
+body {
+margin: 0;
+font-family: Arial, sans-serif;
+background: #0f172a;
+color: #e5e7eb;
+}
+
+
+header {
+background: #020617;
+padding: 15px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+
+nav a {
+color: #38bdf8;
+margin: 0 10px;
+text-decoration: none;
+}
+
+
+.hero {
+padding: 40px;
+text-align: center;
+}
+
+
+.hero img {
+max-width: 300px;
+margin-top: 20px;
+}
+
+
+.cards, .gallery {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+gap: 20px;
+padding: 30px;
+font-size: larger;
+font-weight: bold;
+}
+
+
+.card {
+background: #020617;
+padding: 30px;
+width: 300px;
+text-align: center;
+border-radius: 10px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+.gallery img {
+width: 280px;
+border-radius: 10px;
+}
+
+
+.form {
+display: flex;
+flex-direction: column;
+gap: 10px;
+width: 300px;
+margin: 40px auto;
+}
+
+
+input, textarea, button {
+padding: 10px;
+border: none;
+}
+
+
+button {
+background: #38bdf8;
+cursor: pointer;
+}
+
+
+footer {
+background: #020617;
+text-align: center;
+padding: 10px;
+}
+
+
+@media (max-width: 600px) {
+header {
+flex-direction: column;
+}
+}
